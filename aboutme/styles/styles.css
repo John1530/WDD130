@@ -1,9 +1,9 @@
 body {
     text-align: center;
+    background-color: pink;
   }
-  nav {
-    background-color: steelblue;
-    padding: 10px;
+  h1:hover {
+    background-color: black;
   }
   a {
     color: white;
@@ -13,11 +13,12 @@ body {
     color: steelblue;
   }
   img {
-    width: 800px;
+    width: 30%;
     border: 4px solid steelblue;
   }
   p {
-    padding: 10px;
+    color:aliceblue
+    
   }
   footer {
     background-color: steelblue;
