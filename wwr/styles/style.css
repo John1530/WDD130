@@ -10,11 +10,16 @@ nav a {
 }
 nav a:hover {
   background-color: #023047;
+  color: #FFB703;
   text-decoration: underline;
 }
-content {
+#content {
   max-width: 1600px;
   margin: 0 auto;
+}
+
+.icon, .logo {
+  width: 80px;
 }
 
 #memories {
@@ -31,6 +36,7 @@ content {
 
 #memories-msg h4 {
   text-align: center;
+  color: black;
 }
 
 .button-box:hover { 
@@ -41,25 +47,19 @@ main section {
   text-align: center;
 }
 
-#background {
-  height: 725px
-}
-.book {
+.book, .join {
+  background-color: #023047;
   text-decoration: none;
   color: white;
+  
 }
-.join {
-  text-decoration: none;
-  color: white;
-}
-.book:hover {
-  background-color: #FFB703;
-}
-.join:hover {
+
+.book:hover, .join:hover {
   background-color: #FFB703;
 }
 
 #background {
+  height: 725px;
   background-color: #023047;
 }
 .msg {
@@ -79,6 +79,7 @@ footer p {
 }    
 footer p a:hover {
   text-decoration: underline;
+  color: black;
 }    
 
 #back-to-top {
