@@ -1,12 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:ital@1&display=swap');
+
+:root{
+  --heading-font: "Roboto Slab";
+  --paragraph-font: Roboto, Helvetica, sans-serif;
+}
+
+/*Body and Header Style Editor*/
 body {
   background-color: #8ECAE6; 
+  font-family: var(--paragraph-font);
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
 }
+
+h2{
+  margin: 0;
+}
+
 header {
   background-color: #023047;
+  font-family: var(--heading-font);
+}
+
+.home-title{
+  font-family: var(--heading-font);
+  font-size: 2em;
+  margin-top: 10px;
 }
 nav a {
   color: wheat;
   text-decoration: none;
+  padding: 35px;
 }
 nav a:hover {
   background-color: #023047;
@@ -18,10 +43,20 @@ nav a:hover {
   margin: 0 auto;
 }
 
-.icon, .logo {
+.icon {
   width: 80px;
+  height: 80px;
+  padding-top: 10px;
 }
 
+.logo {
+  width: 200px;
+  height: 200px;
+}
+
+#logo_link{
+  padding-top: 5px;
+}
 #memories {
   text-align: center;
 }
@@ -51,7 +86,23 @@ main section {
   background-color: #023047;
   text-decoration: none;
   color: white;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
   
+}
+
+.rivers-card, .camping-card, .rapids-card{
+  margin: 200px 0;
+}
+
+.card-img {
+  border: 10px solid #FFB703;
+}
+main section img {
+  box-sizing: border-box;
+  border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -65,15 +116,27 @@ main section {
 .msg {
   background-color: #219EBC;
   color: white;
+  line-height: 1.5em;
+  padding: 35px;
 }
+.msg p {
+  padding-bottom: 15px;
+}
+
+/* Footer Editor*/
 footer{
   background-color: #023047;
   color: white;
+  padding: 25px 50px;
 }
 footer a {
   color: white;
   text-decoration: none;
 }
+
+footer .social img{
+  padding-top:15px ;
+} 
 footer p {
   font-size: 1.2em;
 }    
