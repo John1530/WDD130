@@ -41,3 +41,30 @@ nav a:hover {
     color: #FFB703;
     text-decoration: none;
 }
+
+/* Footer Editor*/
+footer{
+  background-color: #023047;
+  color: white;
+  padding: 25px 50px;
+  margin: 10px;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer .social img{
+  padding-top:15px ;
+} 
+footer p {
+  font-size: 1.2em;
+}    
+footer p a:hover {
+  text-decoration: underline;
+  color: black;
+}    
+
+#back-to-top {
+  text-align: right;
+}
