@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kalam&display=swap');
+
+:root{
+  --heading-font: "Kalam";
+  --paragraph-font: Indie Flower;
+}
+
+/*Body and Header Style Editor*/
+body {
+  background-color: antiquewhite;
+  font-family: var(--paragraph-font);
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+
+
+header {
+  font-family: var(--heading-font);
+  display: grid;
+  grid-template-columns: 150px auto ;
+}
+
+#content {
+    max-width: 1600px;
+    background-color: #023047;
+    margin: auto;
+}
+
+
+.home-title{
+  font-family: var(--heading-font);
+  font-size: 2em;
+  margin-top: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 35px;
+}
+nav a:hover {
+  color: #FFB703;
+  text-decoration: underline;
+}
+#content {
+  max-width: 1600px;
+}
+
+.icon {
+  width: 80px;
+  height: 80px;
+  padding-top: 10px;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+#logo_link{
+  padding-top: 20px;
+  justify-self: center;
+  align-self: center;
+}
+
+#feedback {
+    background-color: antiquewhite;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+.moveDown {
+    margin-top: 3em;
+}
+
+form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 400px;
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+}
+  
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+form li + li {
+    margin-top: 1em;
+}
+  
+label {
+   /* Uniform size & alignment */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+  
+input,  textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+  
+    /* Uniform text field size */
+    width: 300px;
+    box-sizing: border-box;
+  
+    /* Match form field borders */
+    border: 1px solid #999;
+}
+  
+input:focus,  textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #000;
+}
+  
+textarea {
+   /* Align multiline text fields with their labels */
+    vertical-align: top;
+  
+    /* Provide space to type some text */
+    height: 5em;
+}
+  
+.button {
+    /* Align buttons with the text fields */
+    padding-left: 90px; /* same size as the label elements */
+    text-align: center;
+}
+  
+button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: 0.5em;
+}
+
+/* Footer Editor*/
+footer{
+  background-color: #023047;
+  color: white;
+  padding: 25px 50px;
+  margin-top: 295px; 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer .social img{
+  padding-top:15px ;
+} 
+footer p {
+  font-size: 1.2em;
+}    
+footer p a:hover {
+  text-decoration: underline;
+  color: black;
+}    
+
+#back-to-top {
+  text-align: right;
+}
