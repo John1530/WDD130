@@ -79,6 +79,9 @@ nav a:hover {
 
 #hero-img {
   width: 100%;
+  position: relative;
+  text-align: center;
+  color: white;
 }
 
 #hero-msg {
