@@ -84,13 +84,13 @@ nav a:hover {
 #hero-msg {
   grid-column: 2/3;
   grid-row: 1/2;
-  margin-top: 600px;
+  margin-top: 500px;
 
 }
 
 h1 {
   text-align: center;
-  color: #FB6F92;
+  color: #780000;
 }
 
 h2{
