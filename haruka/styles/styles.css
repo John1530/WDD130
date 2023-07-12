@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kalam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Dancing+Script&display=swa');
 
 :root{
-  --heading-font: "Kalam";
-  --paragraph-font: Indie Flower;
+  --heading-font: "Bad Script";
+  --paragraph-font: "Dancing Script";
 }
 
 /*Body and Header Style Editor*/
