@@ -129,21 +129,21 @@ main section {
   grid-template-columns: repeat(10, 1fr);
 }
 
-.earrings-card-1, .earrings-card-2, .earrings-card-3 {
+.miniature-card-1, .miniature-card-2, .miniature-card-3 {
   margin: 200px 0;
 }
 
-.earrings-card-1 {
+.miniature-card-1 {
   grid-column: 2/4;
   grid-row: 2/3;
 }
 
-.earrings-card-2 {
+.miniature-card-2 {
   grid-column: 5/7;
   grid-row: 2/3;
 }
 
-.earrings-card-3 {
+.miniature-card-3 {
   grid-column: 8/10;
   grid-row: 2/3;
 }
@@ -160,7 +160,7 @@ main section {
   transform: scale(1.1);
 }
 
-.earrings-with-women {
+.miniature {
   width: 100%;
   grid-column: 2/7;
   grid-row: 5/8;
@@ -253,14 +253,14 @@ footer p a:hover {
       font-size: 25px;
       color: #6f7364;
   }
-  .earrings-card-1, .earrings-card-2, .earrings-card-3 { 
+  .miniature-card-1, .miniature-card-2, .miniature-card-3 { 
       margin: 50px auto;
       width: 60%;
   }
   #background {
       display: none;
   }
-  .earrings-with-women, .msg {
+  .miniature, .msg {
       width: 80%;
       display: block;
       margin: 0 auto;
